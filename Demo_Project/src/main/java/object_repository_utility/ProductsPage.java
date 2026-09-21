@@ -16,5 +16,10 @@ public class ProductsPage
 	@FindBy(linkText = "Products")
 	private WebElement productlink;
 	
+	@FindBy(xpath = "//input[@name='lastname']")
+	private WebElement productbtn;
+	
+	
+	
 
 }
