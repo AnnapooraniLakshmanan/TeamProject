@@ -16,11 +16,14 @@ public class CheckoutPage
 	}
 	@FindBy(linkText="CheckoutPage")
     private WebElement CheckoutPagelink;
+    @FindBy()
+    WebElement link;
+	
 
 
 		
 	
-	System.out.print("product name");
+	
 	
 
 }
