@@ -10,6 +10,7 @@ public class Email
 	WebDriver driver;
 	public Email(WebDriver driver)
 	{
+		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
 	@FindBy(linkText="Email")
