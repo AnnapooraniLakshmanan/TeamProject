@@ -23,7 +23,7 @@ public class CheckoutPage
 
 		
 	
-	System.out.print("product name");
+	
 	
 
 }
