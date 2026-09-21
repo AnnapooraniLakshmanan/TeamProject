@@ -15,5 +15,8 @@ public class CheckoutPage
 	}
 	@FindBy(linkText="CheckoutPage")
     private WebElement CheckoutPagelink;
+    @FindBy()
+    WebElement link;
+	
 
 }
