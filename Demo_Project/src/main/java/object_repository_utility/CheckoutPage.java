@@ -1,5 +1,6 @@
 package object_repository_utility;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,5 +16,11 @@ public class CheckoutPage
 	}
 	@FindBy(linkText="CheckoutPage")
     private WebElement CheckoutPagelink;
+
+
+		
+	
+	System.out.print("product name");
+	
 
 }
