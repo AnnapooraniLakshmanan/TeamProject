@@ -11,6 +11,7 @@ public class PropertyUtility {
 		fis = new FileInputStream("./src/test/resources/CommonData.properties");
 		Properties p = new Properties();
 		p.load(fis);
+		System.out.println("new cls");
 		return p.getProperty(key);
 	}
 }
